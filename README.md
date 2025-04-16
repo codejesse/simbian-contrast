@@ -1,7 +1,7 @@
 # 💡 Simbian Security Contrast – Animated Landing Experience
 
 This submission presents a **simple and striking contrast** between traditional, alert-heavy security operations (**Without Simbian**) and streamlined, AI-driven threat management (**With Simbian**). It visually demonstrates how Simbian helps eliminate the clutter (by using the drop down clutred cards in the without simbian section) of missed or misclassified alerts—bringing clarity, automation, and speed to SOC operations.
-The design is intentionally **minimal and to the point**—avoiding bloated assets or overcomplicated components to preserve performance and clarity. This UI also serves as a **boilerplate** for future enhancements and can be easily extended or customized based on evolving requirements.
+The design is intentionally **minimal and goes straight to the point**—avoiding bloated assets or overcomplicated components to preserve performance and clarity. This UI also serves as a **boilerplate** for future enhancements and can be easily extended or customized based on evolving requirements.
 
 ## 🛠️ Tech & Animation Stack
 
@@ -10,7 +10,7 @@ The design is intentionally **minimal and to the point**—avoiding bloated asse
 - **Animation**: [Framer Motion](https://www.framer.com/motion/) (for component transitions and SVG animation)
 
 ## ✨ Impovements
-- **Imroved UI**: Card UI could be significantly impored with UI kits and increasing dev time.
+- **Imroved UI & Icons**: Card UI could be significantly impored with UI kits and increasing dev time.
 - **SVG Effects**: Custom vertical gradients + blur filters for glowing lines (with more time i would have achieved this)
 
 

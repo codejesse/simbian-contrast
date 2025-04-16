@@ -33,7 +33,7 @@ export default function SectionWithSimbian() {
         {issues.map(({ label, from }, i) => (
           <motion.div
             key={label}
-            className="bg-emerald-700 p-6 rounded-2xl text-center shadow-lg border border-emerald-500"
+            className="border-blue-500 p-6 rounded-2xl text-center shadow-lg border bg-blue-800/80 backdrop-blur-sm"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.6 + i * 0.3 }}

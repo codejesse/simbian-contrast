@@ -10,7 +10,7 @@ The design is intentionally **minimal and goes straight to the point**—avoidin
 - **Animation**: [Framer Motion](https://www.framer.com/motion/) (for component transitions and SVG animation)
 
 ## ✨ Impovements
-- **Imroved UI & Icons**: Card UI could be significantly impored with UI kits and increasing dev time.
+- **Imroved UI & Icons**: Card UI could be significantly impored with UI kits and reducing dev time.
 - **SVG Effects**: Custom vertical gradients + blur filters for glowing lines (with more time i would have achieved this)
 
 

@@ -8,6 +8,7 @@ The design is intentionally **minimal and to the point**—avoiding bloated asse
 - **Framework**: [Next.js 14 (App Router)](https://nextjs.org/docs/app)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Animation**: [Framer Motion](https://www.framer.com/motion/) (for component transitions and SVG animation)
+- **SVG Effects**: Custom vertical gradients + blur filters for glowing lines (with more time i would have achieved this)
 
 
 ---

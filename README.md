@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💡 Simbian Security Contrast – Animated Landing Experience
 
-## Getting Started
+This submission presents a **simple and striking contrast** between traditional, alert-heavy security operations (**Without Simbian**) and streamlined, AI-driven threat management (**With Simbian**). It visually demonstrates how Simbian helps eliminate the clutter of missed or misclassified alerts—bringing clarity, automation, and speed to SOC operations.
+The design is intentionally **minimal and to the point**—avoiding bloated assets or overcomplicated components to preserve performance and clarity. This UI also serves as a **boilerplate** for future enhancements and can be easily extended or customized based on evolving requirements.
 
-First, run the development server:
+## 🛠️ Tech & Animation Stack
+
+- **Framework**: [Next.js 14 (App Router)](https://nextjs.org/docs/app)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/) (for component transitions and SVG animation)
+
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+app/
+├── page.tsx                 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+components/
+├── AlertCard.tsx          
+├── AlertStream.tsx         
+├── AnimatedStep.tsx       
+├── SectionWithoutSimbian.tsx 
+├── SectionWithSimbian.tsx  
+├── PulseConnector.tsx      
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+lib/
+├── alertData.ts      
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

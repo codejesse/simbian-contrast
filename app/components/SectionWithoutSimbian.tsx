@@ -9,7 +9,7 @@ export default function SectionWithoutSimbian() {
         <AlertCard type="Wrongly Closed Alerts" />
         <AlertCard type="Active Threats" />
       </div>
-      <div className="mt-10 text-center text-lg text-white/80 space-y-2">
+      <div className="flex gap-10 justify-center mt-10 text-center text-lg text-white/80 space-y-2">
         <p>⚠️ Wasting valuable analyst time on false positives</p>
         <p>🧩 Processing one alert at a time, missing the big picture</p>
         <p>🔧 More time fixing SOAR automation, less time on real threats</p>

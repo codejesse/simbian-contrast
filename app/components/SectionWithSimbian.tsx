@@ -45,7 +45,7 @@ export default function SectionWithSimbian() {
         ))}
       </div>
 
-      <div className="mt-10 text-center text-lg text-white/90 space-y-2">
+      <div className="flex gap-10 justify-center mt-10 text-center text-lg text-white/90 space-y-2">
         <p>✅ 90% of alerts resolved automatically, 24/7</p>
         <p>✅ Correlates alerts to your environment</p>
         <p>✅ Investigate every alert—no SOAR needed</p>
